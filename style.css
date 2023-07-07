@@ -482,7 +482,7 @@
 
 .video iframe {
     position: absolute;
-    top: 700px;
+    top: -700px;
     right: 6%;
     
 }
