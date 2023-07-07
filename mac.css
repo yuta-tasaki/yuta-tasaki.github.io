@@ -1,0 +1,171 @@
+ul {
+    padding: 0;
+}
+
+/* header{
+    display:flex;
+    width:100%;
+    height:100px;
+    background-color: rgba(169, 169, 169, 0.445);
+    align-items:center;
+}
+
+.menu-item{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    width: 130px;
+    margin: 0px 45px 10px 45px; */
+/* } */
+
+ul li,
+ol li {
+    color: #404040;
+    border-left: solid 6px #1fa67a;
+    /*左側の線*/
+    border-bottom: solid 2px #dadada;
+    /*下に灰色線*/
+    background: whitesmoke;
+    margin-bottom: 5px;
+    /*下のバーとの余白*/
+    line-height: 1.5;
+    padding: 0.5em;
+    list-style-type: none !important;
+    /*ポチ消す*/
+    font-weight: bold;
+}
+
+#su{
+ width: 50%;
+ margin: auto;
+ display: block;
+}
+
+h1 {
+    position: relative;
+    padding: 0.1em 0.5em;
+    background: -webkit-linear-gradient(to right, rgb(255, 186, 115), transparent);
+    background: linear-gradient(to right, rgb(255, 186, 115), transparent);
+    color: #545454;
+}
+                .sita {
+                    width: 100%;
+                    height: 140px;
+                    background: rgb(0, 0, 0);
+                    position: absolute;
+                    top: 870px;
+                    right: 0%;
+                }
+        
+                #rogo2 {
+                    width: 23%;
+                    position: absolute;
+                    top: 20px;
+                    right: 70%;
+                }
+        
+                #js-btn-11 {
+                    display: inline-block;
+                    width: 150px;
+                    height: 80px;
+                    padding: 8px;
+                    background-color: #000000;
+                    font-family: "Times New Roman";
+                    font-size: 180%;
+                    color: #FFFFFF;
+                    text-align: center;
+                    text-decoration: none;
+                    border-radius: 24px;
+                    cursor: pointer;
+                    user-select: none;
+                    transition: opacity 0.3s;
+                    position: absolute;
+                    right: 61%;
+                    top: 890px
+                }
+        
+                #js-btn-21 {
+                    display: inline-block;
+                    width: 150px;
+                    height: 80px;
+                    padding: 8px;
+                    background-color: #000000;
+                    font-family: "Times New Roman";
+                    font-size: 180%;
+                    color: #FFFFFF;
+                    text-align: center;
+                    text-decoration: none;
+                    border-radius: 24px;
+                    cursor: pointer;
+                    user-select: none;
+                    transition: opacity 0.3s;
+                    position: absolute;
+                    right: 47%;
+                    top: 890px
+                }
+        
+                #js-btn-31 {
+                    display: inline-block;
+                    width: 150px;
+                    height: 80px;
+                    padding: 8px;
+                    background-color: #000000;
+                    font-family: "Times New Roman";
+                    font-size: 180%;
+                    color: #FFFFFF;
+                    text-align: center;
+                    text-decoration: none;
+                    border-radius: 24px;
+                    cursor: pointer;
+                    user-select: none;
+                    transition: opacity 0.3s;
+                    position: absolute;
+                    right: 33%;
+                    top: 890px
+                }
+        
+                #js-btn-41 {
+                    display: inline-block;
+                    width: 150px;
+                    height: 80px;
+                    padding: 8px;
+                    background-color: #000000;
+                    font-size: 180%;
+                    font-family: "Times New Roman";
+                    color: #FFFFFF;
+                    text-align: center;
+                    text-decoration: none;
+                    border-radius: 24px;
+                    cursor: pointer;
+                    user-select: none;
+                    transition: opacity 0.3s;
+                    position: absolute;
+                    right: 19%;
+                    top: 890px
+                }
+        
+                #js-btn-51 {
+                    display: inline-block;
+                    width: 150px;
+                    height: 80px;
+                    padding: 8px;
+                    background-color: #000000;
+                    font-family: "Times New Roman";
+                    font-size: 180%;
+                    color: #FFFFFF;
+                    text-align: center;
+                    text-decoration: none;
+                    border-radius: 24px;
+                    cursor: pointer;
+                    user-select: none;
+                    transition: opacity 0.3s;
+                    position: absolute;
+                    right: 5%;
+                    top: 890px
+                }
+
+                                body {
+                
+                                    background-size: 100%;
+                
+                                }
