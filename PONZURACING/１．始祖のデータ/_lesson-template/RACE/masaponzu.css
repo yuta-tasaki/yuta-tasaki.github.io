@@ -1,0 +1,554 @@
+.main-grid {
+
+    display: grid;
+
+    grid-template-areas:
+
+        "header header"
+
+        "left main"
+
+        "footer footer";
+
+    grid-template-columns: 4fr 4fr;
+
+    grid-gap: 20px;
+
+
+
+}
+
+.black {
+
+
+
+
+    color: black;
+
+}
+
+
+
+
+
+
+aside {
+
+    grid-area: left;
+
+    background-color: rgba(219, 232, 237, 0.519);
+
+    width: 70%;
+
+    height: 90%;
+
+    font-family: "游ゴシック";
+
+
+
+}
+
+.bou {
+
+    width: 100%;
+
+    height: 1.5px;
+
+    background-color: rgb(180, 170, 170);
+
+}
+
+
+
+
+
+aside2 {
+
+    grid-area: left;
+
+    background-color: rgba(219, 232, 237, 0.519);
+
+    width: 70%;
+
+    font-family: "游ゴシック";
+
+}
+
+.bou {
+
+    width: 100%;
+
+    height: 1.5px;
+
+    background-color: rgb(180, 170, 170);
+
+}
+
+aside3 {
+
+    grid-area: left;
+
+    background-color: rgba(219, 232, 237, 0.519);
+
+    width: 70%;
+
+    font-family: "游ゴシック";
+
+
+
+}
+
+
+
+
+
+.bou {
+
+    width: 100%;
+
+    height: 1.5px;
+
+    background-color: rgb(180, 170, 170);
+
+}
+
+
+
+
+aside4 {
+
+    grid-area: left;
+
+    background-color: rgba(219, 232, 237, 0.519);
+
+    width: 70%;
+
+    font-family: "游ゴシック";
+
+
+
+}
+
+.bou {
+
+    width: 100%;
+
+    height: 1.5px;
+
+    background-color: rgb(180, 170, 170);
+
+}
+
+
+
+
+
+
+aside5 {
+
+    grid-area: left;
+
+    background-color: rgba(219, 232, 237, 0.519);
+
+    width: 70%;
+
+    font-family: "游ゴシック";
+
+
+
+}
+
+.bou {
+
+    width: 100%;
+
+    height: 1.5px;
+
+    background-color: rgb(180, 170, 170);
+
+}
+
+
+
+aside6 {
+
+    grid-area: left;
+
+    background-color: rgba(219, 232, 237, 0.519);
+
+    width: 70%;
+
+    font-family: "游ゴシック";
+
+
+
+}
+
+.bou {
+
+    width: 100%;
+
+    height: 1.5px;
+
+    background-color: rgb(180, 170, 170);
+
+}
+
+
+
+
+aside7 {
+
+    grid-area: left;
+
+    background-color: rgba(219, 232, 237, 0.519);
+
+    width: 70%;
+
+    font-family: "游ゴシック";
+
+}
+
+
+
+
+.rogo1 {
+
+    width: 33%;
+
+    position: absolute;
+
+    top: 6%;
+
+    right: 33%;
+
+}
+
+
+
+.rogo2 {
+
+    width: 31%;
+
+    position: absolute;
+
+    top: 7%;
+
+    right: 3.5%;
+
+}
+
+
+
+.rogo3 {
+
+    width: 31%;
+
+    position: absolute;
+
+    top: 65.0%;
+
+    right: 3.5%;
+
+}
+
+
+
+.rogo4 {
+
+    width: 31%;
+
+    position: absolute;
+
+    top: 65.0%;
+
+    right: 35%;
+
+}
+
+
+
+.rogo5 {
+
+    width: 31%;
+
+    position: absolute;
+
+    top: 120%;
+
+    right: 35%;
+
+}
+
+
+
+
+.rogo6 {
+
+    width: 31%;
+
+    position: absolute;
+
+    top: 120%;
+
+    right: 3.5%;
+
+}
+
+
+
+
+.rogo7 {
+
+    width: 31%;
+
+    position: absolute;
+
+    top: 175%;
+
+    right: 35%;
+
+}
+
+
+
+
+.rogo8 {
+
+    width: 31%;
+
+    position: absolute;
+
+    top: 175%;
+    right: 3.5%;
+
+}
+
+
+
+.rogo9 {
+
+    width: 31%;
+
+    position: absolute;
+
+    top: 230%;
+
+    right: 35%;
+
+}
+
+
+
+.rogo10 {
+
+    width: 31%;
+
+    position: absolute;
+
+    top: 230%;
+
+    right: 3.5%;
+
+}
+
+
+
+.rogo11 {
+
+    width: 31%;
+
+    position: absolute;
+
+    top: 285%;
+
+    right: 35%;
+
+}
+
+
+
+
+.rogo12 {
+
+    width: 31%;
+
+    position: absolute;
+
+    top: 285%;
+
+    right: 3.5%;
+
+}
+
+
+
+
+.rogo13 {
+
+    width: 31%;
+
+    position: absolute;
+
+    top: 340%;
+
+    right: 35%;
+
+}
+
+
+
+.rogo14 {
+
+    width: 31%;
+
+    position: absolute;
+
+    top: 340%;
+
+    right: 3.5%;
+}
+
+
+
+
+.rogo15 {
+
+    width: 31%;
+
+    position: absolute;
+
+    top: 395%;
+
+    right: 35%;
+
+}
+
+
+
+.rogo16 {
+
+    width: 31%;
+
+    position: absolute;
+
+    top: 395%;
+
+    right: 3.5%;
+}
+
+                                                           .sita {
+                                                               width: 100%;
+                                                               height: 140px;
+                                                               background: rgb(0, 0, 0);
+                                                               position: absolute;
+                                                               top: 2820px;
+                                                               right: 0%;
+                                                           }
+                            
+                                                           #rogo2 {
+                                                               width: 23%;
+                                                               position: absolute;
+                                                               top: 20px;
+                                                               right: 70%;
+                                                           }
+                            
+                                                           #js-btn-11 {
+                                                               display: inline-block;
+                                                               width: 150px;
+                                                               height: 80px;
+                                                               padding: 8px;
+                                                               background-color: #000000;
+                                                               font-family: "Times New Roman";
+                                                               font-size: 180%;
+                                                               color: #FFFFFF;
+                                                               text-align: center;
+                                                               text-decoration: none;
+                                                               border-radius: 24px;
+                                                               cursor: pointer;
+                                                               user-select: none;
+                                                               transition: opacity 0.3s;
+                                                               position: absolute;
+                                                               right: 61%;
+                                                               top: 2840px
+                                                           }
+                            
+                                                           #js-btn-21 {
+                                                               display: inline-block;
+                                                               width: 150px;
+                                                               height: 80px;
+                                                               padding: 8px;
+                                                               background-color: #000000;
+                                                               font-family: "Times New Roman";
+                                                               font-size: 180%;
+                                                               color: #FFFFFF;
+                                                               text-align: center;
+                                                               text-decoration: none;
+                                                               border-radius: 24px;
+                                                               cursor: pointer;
+                                                               user-select: none;
+                                                               transition: opacity 0.3s;
+                                                               position: absolute;
+                                                               right: 47%;
+                                                               top: 2840px
+                                                           }
+                            
+                                                           #js-btn-31 {
+                                                               display: inline-block;
+                                                               width: 150px;
+                                                               height: 80px;
+                                                               padding: 8px;
+                                                               background-color: #000000;
+                                                               font-family: "Times New Roman";
+                                                               font-size: 180%;
+                                                               color: #FFFFFF;
+                                                               text-align: center;
+                                                               text-decoration: none;
+                                                               border-radius: 24px;
+                                                               cursor: pointer;
+                                                               user-select: none;
+                                                               transition: opacity 0.3s;
+                                                               position: absolute;
+                                                               right: 33%;
+                                                               top: 2840px
+                                                           }
+                            
+                                                           #js-btn-41 {
+                                                               display: inline-block;
+                                                               width: 150px;
+                                                               height: 80px;
+                                                               padding: 8px;
+                                                               background-color: #000000;
+                                                               font-size: 180%;
+                                                               font-family: "Times New Roman";
+                                                               color: #FFFFFF;
+                                                               text-align: center;
+                                                               text-decoration: none;
+                                                               border-radius: 24px;
+                                                               cursor: pointer;
+                                                               user-select: none;
+                                                               transition: opacity 0.3s;
+                                                               position: absolute;
+                                                               right: 19%;
+                                                               top: 2840px
+                                                           }
+                            
+                                                           #js-btn-51 {
+                                                               display: inline-block;
+                                                               width: 150px;
+                                                               height: 80px;
+                                                               padding: 8px;
+                                                               background-color: #000000;
+                                                               font-family: "Times New Roman";
+                                                               font-size: 180%;
+                                                               color: #FFFFFF;
+                                                               text-align: center;
+                                                               text-decoration: none;
+                                                               border-radius: 24px;
+                                                               cursor: pointer;
+                                                               user-select: none;
+                                                               transition: opacity 0.3s;
+                                                               position: absolute;
+                                                               right: 5%;
+                                                               top: 2840px
+                                                           }

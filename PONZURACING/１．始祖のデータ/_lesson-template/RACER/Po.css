@@ -1,0 +1,378 @@
+picture {
+
+    margin: 0;
+
+    width: 100vw;
+
+    height: 100vh;
+
+    background-image: url("c:\Users\1602521\Desktop\3a868837-c1f4-40d4-bfb5-901a2dded1b1.jpg");
+
+    background-repeat: no-repeat;
+
+    background-position: 50% 50%;
+
+}
+
+.sample1 {
+
+    font-size: 20px;
+
+    font-family: "Times New Roman";
+
+}
+
+
+
+
+header {
+
+
+
+
+    grid-area: header;
+
+    color: aliceblue;
+
+    background-color: gray;
+
+    display: block;
+
+    margin: auto;
+
+}
+
+
+
+
+body {
+
+    background-size: 100%;
+
+}
+
+
+
+
+
+.parent {
+
+    /* flex box  */
+
+    display: flex;
+
+    justify-content: space-between;
+    /* 余白を均等に */
+
+    align-items: flex-end;
+    /* 下ぞろえ */
+
+}
+
+/* ONO */
+
+.child1 {
+
+    color: aliceblue;
+
+    border: solid 1px #fff;
+
+    text-align: center;
+
+    line-height: 10px;
+
+    width: 450px;
+
+    height: 800px;
+
+    background-color: black;
+
+    align-items: flex-end;
+
+}
+
+
+
+
+.ONOBUTTON {
+
+    width: 100px;
+
+    font-size: 12px;
+
+    color: #FFFFFF;
+
+    text-align: center;
+
+    display: block;
+
+    padding: 10px 0 10px;
+
+    background: #6BCBF6;
+
+    border-radius: 20px;
+
+    position: relative;
+
+
+
+
+    top: 55px;
+
+    left: 160px;
+
+}
+
+
+
+
+/* TASAKI */
+
+.child2 {
+
+    color: aliceblue;
+
+    border: solid 1px #fff;
+
+    text-align: center;
+
+    line-height: 10px;
+
+    width: 500px;
+
+    height: 1000px;
+
+    background-color: rgba(255, 0, 0, 0.831);
+
+    align-items: flex-end;
+
+}
+
+.TASAKIBUTTON {
+
+    width: 100px;
+
+    font-size: 12px;
+
+    color: #FFFFFF;
+
+    text-align: center;
+
+    display: block;
+
+    padding: 10px 0 10px;
+
+    background: #6BCBF6;
+
+    border-radius: 20px;
+
+    position: relative;
+
+
+
+
+    top: 20px;
+
+    left: 180px;
+
+}
+
+
+
+
+
+
+
+
+
+/* YAMANE */
+
+.child3 {
+
+    color: aliceblue;
+
+    border: solid 1px #fff;
+
+    text-align: center;
+
+    /* 文字間隔 */
+
+    line-height: 10px;
+
+    width: 450px;
+
+    height: 800px;
+
+    background-color: black;
+
+    align-items: flex-end;
+
+
+
+
+}
+
+
+
+
+.YAMANEBUTTON {
+
+    width: 100px;
+
+    font-size: 12px;
+
+    color: #FFFFFF;
+
+    text-align: center;
+
+    display: block;
+
+    padding: 10px 0 10px;
+
+    background: #6BCBF6;
+
+    border-radius: 20px;
+
+    position: relative;
+
+
+
+
+    top: 55px;
+
+    left: 160px;
+
+}
+
+
+
+
+.foot1 {
+
+    grid-area: footer;
+
+    color: aliceblue;
+
+    background-color: gray;
+
+    display: block;
+
+    margin: auto;
+
+}
+
+                .sita {
+                    width: 100%;
+                    height: 140px;
+                    background: rgb(0, 0, 0);
+                    position: absolute;
+                    top: 1130px;
+                    right: 0%;
+                }
+        
+                #rogo2 {
+                    width: 23%;
+                    position: absolute;
+                    top: 20px;
+                    right: 70%;
+                }
+        
+                #js-btn-11 {
+                    display: inline-block;
+                    width: 150px;
+                    height: 80px;
+                    padding: 8px;
+                    background-color: #000000;
+                    font-family: "Times New Roman";
+                    font-size: 180%;
+                    color: #FFFFFF;
+                    text-align: center;
+                    text-decoration: none;
+                    border-radius: 24px;
+                    cursor: pointer;
+                    user-select: none;
+                    transition: opacity 0.3s;
+                    position: absolute;
+                    right: 61%;
+                    top: 1150px
+                }
+        
+                #js-btn-21 {
+                    display: inline-block;
+                    width: 150px;
+                    height: 80px;
+                    padding: 8px;
+                    background-color: #000000;
+                    font-family: "Times New Roman";
+                    font-size: 180%;
+                    color: #FFFFFF;
+                    text-align: center;
+                    text-decoration: none;
+                    border-radius: 24px;
+                    cursor: pointer;
+                    user-select: none;
+                    transition: opacity 0.3s;
+                    position: absolute;
+                    right: 47%;
+                    top: 1150px
+                }
+        
+                #js-btn-31 {
+                    display: inline-block;
+                    width: 150px;
+                    height: 80px;
+                    padding: 8px;
+                    background-color: #000000;
+                    font-family: "Times New Roman";
+                    font-size: 180%;
+                    color: #FFFFFF;
+                    text-align: center;
+                    text-decoration: none;
+                    border-radius: 24px;
+                    cursor: pointer;
+                    user-select: none;
+                    transition: opacity 0.3s;
+                    position: absolute;
+                    right: 33%;
+                    top: 1150px
+                }
+        
+                #js-btn-41 {
+                    display: inline-block;
+                    width: 150px;
+                    height: 80px;
+                    padding: 8px;
+                    background-color: #000000;
+                    font-size: 180%;
+                    font-family: "Times New Roman";
+                    color: #FFFFFF;
+                    text-align: center;
+                    text-decoration: none;
+                    border-radius: 24px;
+                    cursor: pointer;
+                    user-select: none;
+                    transition: opacity 0.3s;
+                    position: absolute;
+                    right: 19%;
+                    top: 1150px
+                }
+        
+                #js-btn-51 {
+                    display: inline-block;
+                    width: 150px;
+                    height: 80px;
+                    padding: 8px;
+                    background-color: #000000;
+                    font-family: "Times New Roman";
+                    font-size: 180%;
+                    color: #FFFFFF;
+                    text-align: center;
+                    text-decoration: none;
+                    border-radius: 24px;
+                    cursor: pointer;
+                    user-select: none;
+                    transition: opacity 0.3s;
+                    position: absolute;
+                    right: 5%;
+                    top: 1150px
+                }
