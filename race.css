@@ -212,174 +212,175 @@ aside7 {
 
 
 
-.rogo1 {
+    .rogo1 {
 
-    width: 33%;
+            width: 33%;
 
-    position: absolute;
+           position: absolute;
 
-    top: 6%;
+               top:6%;
 
-    right: 33%;
+               right:33%;  
+
+             }
+
+   
+
+             .rogo2 {
+
+            width: 31%;
+
+           position: absolute;
+
+               top:7%;
+
+               right:3.5%;
+
+        }
+
+       
+
+        .rogo3 {
+
+            width: 31%;
+
+           position: absolute;
+
+               top: 72.0%;
+
+               right:3.5%;
+
+        }
+
+     
+
+        .rogo4 {
+
+            width: 31%;
+
+           position: absolute;
+
+               top:72.0% ;
+
+               right: 35%;      
+
+        }
+
+   
+
+        .rogo5 {
+
+            width: 31%;
+
+           position: absolute;
+
+               top: 130%;
+
+               right:35% ;
+
+        }
+
+
+
+
+      .rogo6 {
+
+            width: 31%;
+
+           position: absolute;
+
+               top: 130%;
+
+               right: 3.5%;
+
+        }
+
+
+
+
+        .rogo7 {
+
+            width: 31%;
+
+           position: absolute;
+
+               top: 190%;
+
+               right: 35%;
+
+        }
+
+
+
+
+     .rogo8 {
+
+      width: 31%;
+
+      position: absolute;
+
+       top: 190%;
+
+       right: 3.5%;
+
+     }
+
+       
+
+       .rogo9 {
+
+        width: 31%;
+
+       position: absolute;
+
+           top: 250%;
+
+           right: 35%;
+
+     }
+
+           
+
+ .rogo10 {
+
+  width: 31%;
+
+  position: absolute;
+
+   top: 250%;
+
+   right: 3.5%;
 
 }
 
+   
 
-
-.rogo2 {
+   .rogo11 {
 
     width: 31%;
 
-    position: absolute;
+   position: absolute;
 
-    top: 7%;
+       top: 310%;
 
-    right: 3.5%;
+       right: 35%;
 
-}
-
-
-
-.rogo3 {
-
-    width: 31%;
-
-    position: absolute;
-
-    top: 65.0%;
-
-    right: 3.5%;
-
-}
-
-
-
-.rogo4 {
-
-    width: 31%;
-
-    position: absolute;
-
-    top: 65.0%;
-
-    right: 35%;
-
-}
-
-
-
-.rogo5 {
-
-    width: 31%;
-
-    position: absolute;
-
-    top: 120%;
-
-    right: 35%;
-
-}
-
-
-
-
-.rogo6 {
-
-    width: 31%;
-
-    position: absolute;
-
-    top: 120%;
-
-    right: 3.5%;
-
-}
-
-
-
-
-.rogo7 {
-
-    width: 31%;
-
-    position: absolute;
-
-    top: 175%;
-
-    right: 35%;
-
-}
-
-
-
-
-.rogo8 {
-
-    width: 31%;
-
-    position: absolute;
-
-    top: 175%;
-    right: 3.5%;
-
-}
-
-
-
-.rogo9 {
-
-    width: 31%;
-
-    position: absolute;
-
-    top: 230%;
-
-    right: 35%;
-
-}
-
-
-
-.rogo10 {
-
-    width: 31%;
-
-    position: absolute;
-
-    top: 230%;
-
-    right: 3.5%;
-
-}
-
-
-
-.rogo11 {
-
-    width: 31%;
-
-    position: absolute;
-
-    top: 285%;
-
-    right: 35%;
-
-}
+     }  
 
 
 
 
 .rogo12 {
 
-    width: 31%;
+width: 31%;
 
-    position: absolute;
+position: absolute;
 
-    top: 285%;
+top: 310%;
 
-    right: 3.5%;
+right: 3.5%;
 
-}
+ }
 
 
 
@@ -388,26 +389,25 @@ aside7 {
 
     width: 31%;
 
-    position: absolute;
+   position: absolute;
 
-    top: 340%;
+       top: 370%;
 
-    right: 35%;
+       right: 35%;
 
-}
+     }
 
-
+       
 
 .rogo14 {
 
-    width: 31%;
+width: 31%;
 
-    position: absolute;
+position: absolute;
 
-    top: 340%;
+top: 370%;
 
-    right: 3.5%;
-}
+right: 3.5%; }  
 
 
 
@@ -416,26 +416,29 @@ aside7 {
 
     width: 31%;
 
-    position: absolute;
+   position: absolute;
 
-    top: 395%;
+       top: 430%;
 
-    right: 35%;
+       right: 35%;
 
-}
+     }      
 
+   
 
+     .rogo16 {
 
-.rogo16 {
+        width: 31%;
 
-    width: 31%;
+        position: absolute;
 
-    position: absolute;
+        top: 430%;
 
-    top: 395%;
+        right: 3.5%; }
 
-    right: 3.5%;
-}
+       
+
+ 
 
                                                            .sita {
                                                                width: 100%;
