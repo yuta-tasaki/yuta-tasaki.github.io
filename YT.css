@@ -1,0 +1,118 @@
+body{
+    background-size: 100%;
+}
+
+
+.more-toggle,
+.hidden-content {
+    display: none;
+}
+
+.more-toggle:checked~.hidden-content {
+    display: block;
+}
+
+.more-button {
+    display: inline-block;
+    width: 250px;
+    height: 40px;
+    padding: 8px;
+    background-color: #0000ff;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 24px;
+    cursor: pointer;
+    user-select: none;
+    transition: opacity 0.3s;
+}
+
+.more-button::before {
+    content: '深淵を覗く準備はいいカ・・・？';
+}
+
+.more-toggle:checked~.more-button::before {
+    content: '深淵を覗くとき深淵もまたこちらを覗いているのだ・・・';
+}
+
+.more-button:hover {
+    opacity: 0.7;
+}
+
+.more-button:active {
+    opacity: 0.4;
+}
+
+ul{
+    font-size: 150%;
+    font-weight: bolder;
+}
+
+
+
+
+
+/*1. デオフォルト非表示にする*/
+#modal {
+    display: none;
+}
+
+
+/*2. 内部リンククリックで適用する*/
+#modal:target {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*3. メッセージBOX（テキスト部）*/
+#modal .message-box {
+    position: relative;
+    background-color: gold;
+    padding: 20px;
+    height: 100px;
+    cursor: default;
+}
+
+/*4. 閉じる領域のためのアンカー*/
+#modal .close {
+    position: relative;
+    display: block;
+}
+
+/*5. 枠外の閉じる領域*/
+#modal .close::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    cursor: default;
+}
+
+
+/*6. 閉じるボタン*/
+#modal .close::after {
+    content: "x";
+    color: white;
+    position: absolute;
+    right: -1rem;
+    top: -1rem;
+    width: 2rem;
+    height: 2rem;
+    z-index: 1;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
